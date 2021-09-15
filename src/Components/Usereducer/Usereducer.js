@@ -21,6 +21,7 @@ export default function Usereducer(){
     <div className="Main">
       <p className="Text">This is useReducer</p>
       <p>Kelompok 2</p><br />
+      <div className="Text">Count = {count}</div>
       <div className="ViewButton">
         <div className="ViewButton2">
           <button className="Button" onClick={() => dispatch("increment")}>
